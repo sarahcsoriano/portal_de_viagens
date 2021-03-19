@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	<title> Atividade 01 </title>
+</head>
+<body>
+	<!-- header -->
+	<header class="l-header" id="header">
+		<nav class="nav bd-container">
+			<a href="#" class="nav_logo"> Portal de Viagens </a>
+			
+			<ul class="nav-ul" id="nav-ul">
+				<li class="nav_item">
+					<a href="#destinos"> Destinos </a>
+				</li>
+				<li class="nav_item">
+					<a href="#valores"> Valores </a>
+				</li>
+				<li class="nav_item">
+					<a href="#contato"> Contato </a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="l-main">
+		<section class="hero-area home" id="destinos">
+			<div class="home-div">
+				<img class="img-home" src="img/home.png">
+				<h1 class="title"> As melhores naves!</h1>
+				<p>Preços especiais para os planetas da federação galáctica. Visite ainda, universos, dimensões e realidades alternativas!</p>
+			</div>
+		</section>
+	
+		<section class="valores bd-container" id="valores">
+			<div>
+				<h2 class="sub-title"> consultar valores </h2>
+			</div>
+
+			<div class="form">
+
+				<div class="form-group">
+					<input type="text" name="origem" required/>
+					<label for="text" class="label-form"> 
+						<span class="content-form"> Origem </span>
+					</label>
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="destino" required/>
+					<label for="text" class="label-form"> 
+						<span class="content-form"> Destino </span>
+					</label>
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="data-de-partida" required/>
+					<label for="date" class="label-form"> 
+						<span class="content-form date"> Data de Partida </span>
+					</label>
+				</div>
+
+				<div class="form-group">
+					<input type="text" name="data-de-volta" required/>
+					<label for="date" class="label-form"> 
+						<span class="content-form date"> Data de Volta </span>
+					</label>
+				</div>
+
+				<div class="form-group">
+					<button id="btnSubmit" type="submit" name="submit" class="btn"> Consultar </button>
+				</div>
+
+			</div>
+
+		</section>
+	</main>
+</body>
+</html>
